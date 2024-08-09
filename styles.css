@@ -10,20 +10,20 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 100vh;
     
 }
 
 .container {
-    max-width: 470px;
+    max-width: 400px;
     margin: 100px auto 0;
     text-align: center;
-    padding: 40px 35px;
-    background: linear-gradient(135deg, #00feba, #5b548a); /* Set the background color to be transparent */
+    padding: 30px 25px;
+    background: linear-gradient(135deg, #00feba, #5b548a); 
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the alpha value here for the box shadow transparency */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
     margin-top: 70px;
-    width: 90%;
+    width: 60%;
     color: #fff;
 }
 .search{
@@ -37,38 +37,29 @@ body {
     outline: 0;
     background: #ebfffc;
     color: #555;
-    padding: 10px 25px ;
-    height: 60px;
+    padding: 10px 15px ;
+    height: 40px;
     border-radius: 30px;
     flex: 1;
     margin-right: 16px;
-    font-size: 18px;
-}
-.search button{
-    border: 0;
-    outline: 0;
-    background: #ebfffc;
-    border-radius: 50%; 
-    width: 60px;
-    height: 60px;
-    cursor: pointer;
+    font-size: 15px;
 }
 
+
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     color: #fff;
     margin-bottom: 20px;
 }
 
-
-
-button {
-    color: #fff;
-    border: none;
-    padding: 5px;
-    border-radius: 5px;
-    cursor: pointer;
+.fas{
+font-size:35px ;
+cursor: pointer;
 }
+.fas:hover{
+    text-shadow: 2px 2px 4px gray;
+}
+
 
 .weather-info {
     margin-top: 20px;
@@ -87,6 +78,13 @@ button {
     margin-top: 10px;
     display: none;
     color: #fff;
+}
+.icons{
+    height: 40px;
+
+}
+.weather-icon{
+    height: 90px;
 }
 
 @media screen and (max-width:480px){

@@ -41,3 +41,7 @@ const getWeather = async (city) => {
 searctBtn.addEventListener("click", () => {
   getWeather(searchText.value);
 });
+
+document.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") getWeather(searchText.value);
+});
